@@ -1,0 +1,27 @@
+osu file format v14
+
+[General]
+AudioFilename: demo.wav
+Mode: 3
+
+[Metadata]
+Title: Synthetic Parser Demo
+Artist: Local Test Generator
+Creator: Demo
+Version: 4K Test
+BeatmapSetID: -1
+
+[Difficulty]
+CircleSize: 4
+
+[TimingPoints]
+0,500,4,1,0,100,1,0
+1000,-50,4,1,0,100,0,0
+2000,250,4,1,0,100,1,0
+
+[HitObjects]
+64,192,500,1,0,0:0:0:0:
+192,192,1000,128,0,1750:0:0:0:0:
+320,192,2000,1,0,0:0:0:0:
+448,192,2000,1,0,0:0:0:0:
+512,192,2500,1,0,0:0:0:0:

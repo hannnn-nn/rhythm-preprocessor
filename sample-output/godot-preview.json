@@ -1,0 +1,31 @@
+{
+  "schema_version": "godot-preview-1",
+  "lane_count": 4,
+  "time_unit": "seconds",
+  "notes": [
+    {
+      "time": 0.5,
+      "lane": 0,
+      "type": "tap"
+    },
+    {
+      "time": 1.0,
+      "lane": 1,
+      "type": "air"
+    },
+    {
+      "time": 2.0,
+      "lane": 0,
+      "type": "hold",
+      "duration": 0.5
+    },
+    {
+      "time": 2.5,
+      "lane": 2,
+      "type": "air"
+    }
+  ],
+  "warnings": [
+    "Preview mapping: slides become fixed-lane holds; trace notes omitted. Not a playability guarantee."
+  ]
+}

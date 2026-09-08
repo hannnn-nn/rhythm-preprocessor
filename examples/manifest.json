@@ -1,0 +1,17 @@
+{
+  "charts": {
+    "mania.osu": {
+      "song_id": "synthetic-demo-001",
+      "audio": "demo.wav",
+      "source_url": "local:synthetic-example",
+      "license": "CC0-1.0 (synthetic example only)"
+    },
+    "sekai.sus": {
+      "song_id": "synthetic-demo-001",
+      "audio": "demo.wav",
+      "source_url": "local:synthetic-example",
+      "license": "CC0-1.0 (synthetic example only)",
+      "audio_time_shift_seconds": 0
+    }
+  }
+}

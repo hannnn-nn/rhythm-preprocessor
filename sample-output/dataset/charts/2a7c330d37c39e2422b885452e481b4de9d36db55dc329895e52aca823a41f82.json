@@ -1,0 +1,124 @@
+{
+  "source_game": "project_sekai",
+  "key_count": 12,
+  "metadata": {
+    "TITLE": "Synthetic Parser Demo",
+    "ARTIST": "Local Test Generator",
+    "DESIGNER": "Demo",
+    "DIFFICULTY": "TEST",
+    "WAVE": "demo.wav",
+    "WAVEOFFSET": "0",
+    "ticks_per_beat": 480
+  },
+  "difficulty": "TEST",
+  "audio_filename": "demo.wav",
+  "timing": [
+    {
+      "beat": 0.0,
+      "time": -0.0,
+      "bpm": 120.0
+    },
+    {
+      "beat": 4.0,
+      "time": 2.0,
+      "bpm": 240.0
+    }
+  ],
+  "measure_lengths": {
+    "0": 4.0
+  },
+  "notes": [
+    {
+      "time": 0.5,
+      "lane": 0,
+      "width": 2,
+      "position": 0.08333333333333333,
+      "width_normalized": 0.16666666666666666,
+      "type": "tap",
+      "beat": 1.0,
+      "critical": false
+    },
+    {
+      "time": 1.0,
+      "lane": 4,
+      "width": 2,
+      "position": 0.4166666666666667,
+      "width_normalized": 0.16666666666666666,
+      "type": "flick",
+      "beat": 2.0,
+      "critical": true,
+      "direction": "up_left"
+    },
+    {
+      "time": 2.0,
+      "lane": 0,
+      "width": 2,
+      "position": 0.08333333333333333,
+      "width_normalized": 0.16666666666666666,
+      "type": "slide",
+      "beat": 4.0,
+      "critical": false,
+      "role": "start",
+      "end_time": 2.5,
+      "duration": 0.5,
+      "end_beat": 6.0,
+      "path": [
+        {
+          "time": 2.0,
+          "lane": 0,
+          "width": 2,
+          "position": 0.08333333333333333,
+          "width_normalized": 0.16666666666666666,
+          "type": "tap",
+          "beat": 4.0,
+          "critical": false,
+          "role": "start"
+        },
+        {
+          "time": 2.25,
+          "lane": 4,
+          "width": 2,
+          "position": 0.4166666666666667,
+          "width_normalized": 0.16666666666666666,
+          "type": "tap",
+          "beat": 5.0,
+          "critical": false,
+          "role": "visible"
+        },
+        {
+          "time": 2.5,
+          "lane": 6,
+          "width": 2,
+          "position": 0.5833333333333334,
+          "width_normalized": 0.16666666666666666,
+          "type": "flick",
+          "beat": 6.0,
+          "critical": false,
+          "direction": "up_right",
+          "role": "end"
+        }
+      ],
+      "channel": "a"
+    }
+  ],
+  "warnings": [],
+  "controls": [],
+  "guides": [],
+  "visual_commands": [],
+  "wave_offset_seconds": 0.0,
+  "schema_version": "1.0",
+  "chart_id": "2a7c330d37c39e2422b885452e481b4de9d36db55dc329895e52aca823a41f82",
+  "source_path": "C:\\Users\\polly\\Documents\\Codex\\2026-09-08\\new-chat-2\\outputs\\rhythm-preprocessor\\examples\\sekai.sus",
+  "time_unit": "seconds",
+  "time_origin": "audio_start",
+  "lane_index_origin": 0,
+  "audio_time_shift_seconds": 0.0,
+  "provenance": {
+    "source_url": "local:synthetic-example",
+    "license": "CC0-1.0 (synthetic example only)",
+    "song_id": "synthetic-demo-001"
+  },
+  "audio_path": "C:\\Users\\polly\\Documents\\Codex\\2026-09-08\\new-chat-2\\outputs\\rhythm-preprocessor\\examples\\demo.wav",
+  "song_group": "642ed92801ae0dd9822ff13da59c8a0492aae02cb20f679bbf5ed90a76840575",
+  "split": "test"
+}

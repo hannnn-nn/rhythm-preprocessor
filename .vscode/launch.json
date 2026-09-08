@@ -1,0 +1,21 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "解析範例 osu!mania",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "rhythm",
+      "args": ["parse", "examples/mania.osu", "work/mania.json"],
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "建立訓練資料（先建立範例音訊）",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "rhythm",
+      "args": ["build", "examples", "work/dataset", "--features", "--manifest", "examples/manifest.json"],
+      "console": "integratedTerminal"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+// Synthetic chart written specifically for parser testing, not a game chart.
+#TITLE "Synthetic Parser Demo"
+#ARTIST "Local Test Generator"
+#DESIGNER "Demo"
+#DIFFICULTY "TEST"
+#WAVE "demo.wav"
+#WAVEOFFSET 0
+#REQUEST "ticks_per_beat 480"
+#BPM01: 120
+#BPM02: 240
+#00002: 4
+#00008: 01
+#00108: 02
+#00012: 00120000
+#00016: 00002200
+#00056: 00003200
+#00132a: 12
+#00136a: 00320000
+#00138a: 00002200
+#00158: 00004200
